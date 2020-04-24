@@ -1,0 +1,7 @@
+Fichier HTML "CO" = Page d'identification PSEUDO
+Fichier HTML Rôles = Page des explications des rôles
+Fichier CSS = Tout le CSS des pages.
+
+"Logo" = Logo du jeu qui nous représente nous 4.
+"Forest" = Font des pages du jeu
+Le reste des IMG = Les cartes du jeu
