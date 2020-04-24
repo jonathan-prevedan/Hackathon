@@ -53,6 +53,6 @@ function postMessage(event){
   
   document.querySelector('form').addEventListener('submit', postMessage);
   
-  const interval = window.setInterval(getMessages, 3000);
+  const interval = window.setInterval(getMessages, 2000);
   
   getMessages();
