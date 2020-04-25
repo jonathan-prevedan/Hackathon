@@ -27,4 +27,5 @@
         </div>
     </main>
 </body>
+<script src="libraries/update.js"></script>
 </html>

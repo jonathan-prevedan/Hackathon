@@ -1,0 +1,91 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* END IMPORTS */
+/* INIT */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../../images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* END INIT */
+
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.3fr;
+    grid-template-rows: 0.25fr 0.5fr 0.5fr;
+}
+.card{
+    box-shadow: 0px 0px 72px 14px rgba(0,0,0,0.75);
+    animation: card infinite 2000ms;
+}
+#players{
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#players .player{
+    width:  10%;
+    height: 70%;
+    /* background-color: red; */
+}
+#players .player img{
+    width: 100%;
+    height: auto;
+}
+#players .player p{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 1vw;
+}
+#player{
+    grid-column-start: 2;
+    grid-row-start: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#player p{
+    color: white;
+    font-size: 1vw;
+    margin: 0;
+}
+#logs{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgba(51, 51, 51, 0.493);
+    overflow: auto;
+}
+#logs .line{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#infos{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+#plate{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.content{
+    border: 1px solid black;
+    box-sizing: border-box;
+}

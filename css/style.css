@@ -99,7 +99,7 @@ main #server_wrapper .server p{
     color: white;
 }
 main #server_wrapper .server .status{
-    width: 10%;
+    width: 15%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -129,5 +129,13 @@ main #server_wrapper .server .disavailable span{
 }
 main #server_wrapper .server .disavailable p{
     color: red;
+    transition: color 250ms;
+}
+main #server_wrapper .server .started span{
+    background-color: orange;
+    transition: background 250ms;
+}
+main #server_wrapper .server .started p{
+    color: orange;
     transition: color 250ms;
 }
