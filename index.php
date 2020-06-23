@@ -8,7 +8,7 @@
     <title>Notre jeu</title>
 </head>
 <body>
-    
+    fefefe
 </body>
 <script src="libraries/jquery-3.5.0.min.js"></script>
 <script src="libraries/app.js"></script>
